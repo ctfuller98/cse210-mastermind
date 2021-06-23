@@ -33,7 +33,8 @@ class Player:
             self (Player): an instance of Player.
         """
         return self._name
-
+    def get_guess(self, guess):
+        return self._guess
     def set_move(self, move):
         """Sets the player's last move to the given instance of Move.
 
